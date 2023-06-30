@@ -1,0 +1,34 @@
+Started by user unknown or anonymous
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Test in /home/kgopi424/jenkins/workspace/check1
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Hello)
+[Pipeline] echo
+Hello World
+[Pipeline] sh
++ echo
+
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (text)
+[Pipeline] sh
++ wget http://3.7.65.205:8080/job/check1/29//consoleText
+--2023-06-23 08:36:02--  http://3.7.65.205:8080/job/check1/29//consoleText
+Connecting to 3.7.65.205:8080... failed: Connection timed out.
+Retrying.
+
+--2023-06-23 08:38:13--  (try: 2)  http://3.7.65.205:8080/job/check1/29//consoleText
+Connecting to 3.7.65.205:8080... Aborted by unknown
+Sending interrupt signal to process
+Terminated
+script returned exit code 143
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+org.jenkinsci.plugins.workflow.actions.ErrorAction$ErrorId: 58dbc62e-ee8a-493f-85d5-cb4808b7979e
+Finished: ABORTED

@@ -1,0 +1,315 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kgopi424@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.226.244.253",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2023-06-23T07:14:46.923973Z",
+          "reason": "8uSywAYQGg5Db2xpc2V1bSBGbG93cw",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "authorizationInfo": [
+        {
+          "permission": "compute.instances.start",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "compute",
+            "name": "projects/shaped-gravity-381607/zones/us-central1-a/instances/jfrog",
+            "type": "compute.instances"
+          }
+        }
+      ],
+      "resourceName": "projects/shaped-gravity-381607/zones/us-central1-a/instances/jfrog",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.start"
+      },
+      "response": {
+        "id": "757813340024666249",
+        "name": "operation-1687504486171-5fec6c174831c-4e86ca8f-a065b4c3",
+        "zone": "https://www.googleapis.com/compute/v1/projects/shaped-gravity-381607/zones/us-central1-a",
+        "operationType": "start",
+        "targetLink": "https://www.googleapis.com/compute/v1/projects/shaped-gravity-381607/zones/us-central1-a/instances/jfrog",
+        "targetId": "7531267036885172307",
+        "status": "RUNNING",
+        "user": "kgopi424@gmail.com",
+        "progress": "0",
+        "insertTime": "2023-06-23T00:14:46.852-07:00",
+        "startTime": "2023-06-23T00:14:46.882-07:00",
+        "selfLink": "https://www.googleapis.com/compute/v1/projects/shaped-gravity-381607/zones/us-central1-a/operations/operation-1687504486171-5fec6c174831c-4e86ca8f-a065b4c3",
+        "selfLinkWithId": "https://www.googleapis.com/compute/v1/projects/shaped-gravity-381607/zones/us-central1-a/operations/757813340024666249",
+        "@type": "type.googleapis.com/operation"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1-a"
+        ]
+      }
+    },
+    "insertId": "-epa62xeadf5c",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-a",
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607"
+      }
+    },
+    "timestamp": "2023-06-23T07:14:46.274162Z",
+    "severity": "NOTICE",
+    "logName": "projects/shaped-gravity-381607/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1687504486171-5fec6c174831c-4e86ca8f-a065b4c3",
+      "producer": "compute.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2023-06-23T07:14:47.876310238Z"
+  },
+  {
+    "insertId": "0",
+    "jsonPayload": {
+      "startupEvent": {},
+      "@type": "type.googleapis.com/cloud_integrity.IntegrityEvent",
+      "bootCounter": "6"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-a",
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607"
+      }
+    },
+    "timestamp": "2023-06-23T07:14:54.623865611Z",
+    "severity": "NOTICE",
+    "logName": "projects/shaped-gravity-381607/logs/compute.googleapis.com%2Fshielded_vm_integrity",
+    "receiveTimestamp": "2023-06-23T07:14:56.635261277Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "kgopi424@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.226.244.253",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "compute.googleapis.com",
+      "methodName": "v1.compute.instances.start",
+      "resourceName": "projects/shaped-gravity-381607/zones/us-central1-a/instances/jfrog",
+      "request": {
+        "@type": "type.googleapis.com/compute.instances.start"
+      }
+    },
+    "insertId": "-ft9jxfc8f6",
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "shaped-gravity-381607",
+        "zone": "us-central1-a",
+        "instance_id": "7531267036885172307"
+      }
+    },
+    "timestamp": "2023-06-23T07:14:54.891346Z",
+    "severity": "NOTICE",
+    "logName": "projects/shaped-gravity-381607/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operation-1687504486171-5fec6c174831c-4e86ca8f-a065b4c3",
+      "producer": "compute.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2023-06-23T07:14:55.532864613Z"
+  },
+  {
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607",
+        "zone": "us-central1-a"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:00.840837774Z",
+    "severity": "NOTICE",
+    "logName": "projects/shaped-gravity-381607/logs/compute.googleapis.com%2Fshielded_vm_integrity",
+    "receiveTimestamp": "2023-06-23T07:15:02.857532268Z"
+  },
+  {
+    "insertId": "16gppcjf2260am",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2023-06-23T07:15:07.8907Z",
+      "message": "OSConfig Agent (version 20230504.00-0ubuntu1~20.04.0) started."
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "7531267036885172307",
+        "zone": "us-central1-a",
+        "project_id": "shaped-gravity-381607"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:07.891840786Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "jfrog",
+      "agent_version": "20230504.00-0ubuntu1~20.04.0"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/OSConfigAgent",
+    "sourceLocation": {
+      "file": "main.go",
+      "line": "151",
+      "function": "main.run"
+    },
+    "receiveTimestamp": "2023-06-23T07:15:09.133656890Z"
+  },
+  {
+    "insertId": "16gppcjf2260an",
+    "jsonPayload": {
+      "logging.googleapis.com/diagnostic": {
+        "instrumentation_source": [
+          {
+            "name": "go",
+            "version": "1.6.1"
+          }
+        ],
+        "runtime": "1.18.1"
+      }
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-a",
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:07.892016478Z",
+    "labels": {
+      "instance_name": "jfrog"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/diagnostic-log",
+    "receiveTimestamp": "2023-06-23T07:15:09.133656890Z"
+  },
+  {
+    "insertId": "19s5ymgf6mso8b",
+    "jsonPayload": {
+      "localTimestamp": "2023-06-23T07:15:08.5308Z",
+      "omitempty": null,
+      "message": "GCE Agent Started (version 20230426.00-0ubuntu2~20.04.0)"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607",
+        "zone": "us-central1-a"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:08.530897311Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "jfrog"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "main.go",
+      "line": "144",
+      "function": "main.run"
+    },
+    "receiveTimestamp": "2023-06-23T07:15:09.751018415Z"
+  },
+  {
+    "insertId": "19s5ymgf6mso8c",
+    "jsonPayload": {
+      "message": "Invalid ssh key entry - expired key: kgopi424:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOI7tDiZbEQB086Y34LEzKzYhsFWfI3yIG1HOO6zgjLGnBtLPVd2leo4eEkKnbo3Zoe1JVC9u2NIDP9DzdaGVsU= google-ssh {\"userName\":\"kgopi424@gmail.com\",\"expireOn\":\"2023-06-20T15:59:27+0000\"}",
+      "omitempty": null,
+      "localTimestamp": "2023-06-23T07:15:08.9322Z"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "instance_id": "7531267036885172307",
+        "project_id": "shaped-gravity-381607",
+        "zone": "us-central1-a"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:08.932520758Z",
+    "severity": "ERROR",
+    "labels": {
+      "instance_name": "jfrog"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "non_windows_accounts.go",
+      "line": "213",
+      "function": "main.getUserKeys"
+    },
+    "receiveTimestamp": "2023-06-23T07:15:09.751018415Z"
+  },
+  {
+    "insertId": "19s5ymgf6mso8d",
+    "jsonPayload": {
+      "omitempty": null,
+      "localTimestamp": "2023-06-23T07:15:08.9326Z",
+      "message": "Invalid ssh key entry - expired key: kgopi424:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMqszYvNnU83hZZTSa1Bxw3eXlSeaNyV//zE6zBRhmJ022PanYzXAmYB5EpL1vA6zB7fWZuGvvlGVyfRy5O90Dge/ioNf+AZocQGwhHjYLc/oyyuLxsZMG0glQzjvdI0aWjVGB2NSFFKFrTdvhk0SyIygfjbDU8DFB3ERyUWHvmjNUFYjRo7o6KJneaYF5f94OruutV/ljnHkL9DFbQKO6oVuqzm+/Abm3p3SywEYG2NRh5mku/i7w4jFkiiIgXWoZiW1QWxAUis1Akc6lHhY5GAYwBxjFZNvnEFC1obXktEv+TsHA2rWdRe2DeGsV6DfiumUOHy+rt1UjDoMtKKe9 google-ssh {\"userName\":\"kgopi424@gmail.com\",\"expireOn\":\"2023-06-20T15:59:34+0000\"}"
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "zone": "us-central1-a",
+        "project_id": "shaped-gravity-381607",
+        "instance_id": "7531267036885172307"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:08.932833349Z",
+    "severity": "ERROR",
+    "labels": {
+      "instance_name": "jfrog"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "non_windows_accounts.go",
+      "line": "213",
+      "function": "main.getUserKeys"
+    },
+    "receiveTimestamp": "2023-06-23T07:15:09.751018415Z"
+  },
+  {
+    "insertId": "19s5ymgf6mso8e",
+    "jsonPayload": {
+      "message": "Updating keys for user kgopi424.",
+      "localTimestamp": "2023-06-23T07:15:08.9339Z",
+      "omitempty": null
+    },
+    "resource": {
+      "type": "gce_instance",
+      "labels": {
+        "project_id": "shaped-gravity-381607",
+        "zone": "us-central1-a",
+        "instance_id": "7531267036885172307"
+      }
+    },
+    "timestamp": "2023-06-23T07:15:08.934072803Z",
+    "severity": "INFO",
+    "labels": {
+      "instance_name": "jfrog"
+    },
+    "logName": "projects/shaped-gravity-381607/logs/GCEGuestAgent",
+    "sourceLocation": {
+      "file": "non_windows_accounts.go",
+      "line": "156",
+      "function": "main.(*accountsMgr).set"
+    },
+    "receiveTimestamp": "2023-06-23T07:15:09.751018415Z"
+  }
+]
